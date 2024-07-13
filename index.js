@@ -9,37 +9,37 @@ inquirer
     },
     {
       type: "text",
-      message: "Please provide a brief overview of your project, explaining its purpose, features, and any other relevant information:",
+      message: "Provide an overview of your project, explaining its purpose, features, and other relevant info:",
       name: "descriptionInput",
     },
     {
       type: "text",
-      message: "Please provide instructions on how to install and set up the project locally:",
+      message: "Provide instructions on how to install and set up the project locally:",
       name: "installationInput",
     },
     {
       type: "text",
-      message: "Please list guidelines on how to use the project, including any commands or configurations:",
+      message: "List guidelines on how to use the project, including commands or special configurations:",
       name: "usageInput",
     },
     {
       type: "text",
-      message: "Please provide guidelines for contributors, including information on how to submit changes or report issues:",
+      message: "Provide guidelines for contributors, including info on how to submit changes or report issues:",
       name: "contributionInput",
     },
      {
       type: "text",
-      message: "Please provide acknowledgment of any individuals, libraries, or resources used in your project:",
+      message: "Please list any individuals, libraries, or resources used in your project:",
       name: "creditsInput",
     },
     {
       type: "text",
-      message: "Please provide information about the project's license, outlining how others can use and contribute to your project:",
+      message: "Please provide info about the project's license, outlining how others can contribute to your project:",
       name: "licenseInput",
     },
     {
       type: "text",
-      message: "Please provide information on how to run tests and ensure the project's functionality:",
+      message: "Provide info on how to run tests and ensure the project's functionality:",
       name: "testsInput",
     },
     {
@@ -49,7 +49,7 @@ inquirer
     },
     {
       type: "text",
-      message: "Enter your LinkedIn URL, for other questions or concerns:",
+      message: "Enter your LinkedIn URL for any other questions or concerns:",
       name: "linkedinInput",
     },
   ])
