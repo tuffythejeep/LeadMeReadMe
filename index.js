@@ -4,12 +4,12 @@ inquirer
   .prompt([
     {
       type: "text",
-      message: "Please provide a clear and descriptive title for the project:",
+      message: "Please provide a clear and descriptive title for your project:",
       name: "titleInput",
     },
     {
       type: "text",
-      message: "Please provide a brief overview of the project, explaining its purpose, features, and any other relevant information:",
+      message: "Please provide a brief overview of your project, explaining its purpose, features, and any other relevant information:",
       name: "descriptionInput",
     },
     {
@@ -29,27 +29,27 @@ inquirer
     },
      {
       type: "text",
-      message: "Please provide acknowledgment of any individuals, libraries, or resources used in the project:",
+      message: "Please provide acknowledgment of any individuals, libraries, or resources used in your project:",
       name: "creditsInput",
     },
     {
       type: "text",
-      message: "Please provide information about the project's license, outlining how others can use and contribute to the project:",
+      message: "Please provide information about the project's license, outlining how others can use and contribute to your project:",
       name: "licenseInput",
     },
     {
       type: "text",
-      message: "Please provide Information on how to run tests and ensure the project's functionality:",
+      message: "Please provide information on how to run tests and ensure the project's functionality:",
       name: "testsInput",
     },
     {
       type: "text",
       message: "Enter your GitHub Username, so others can find you there:",
-      name: "gihubInput",
+      name: "githubInput",
     },
     {
       type: "text",
-      message: "Enter your LinkedIn URL, for other questions or concers:",
+      message: "Enter your LinkedIn URL, for other questions or concerns:",
       name: "linkedinInput",
     },
   ])
