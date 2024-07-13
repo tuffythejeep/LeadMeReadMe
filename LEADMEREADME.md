@@ -3,19 +3,19 @@
 
 ## Table of Contents
 
-- [Description] (#my-description)
+- [Description](#my-description)
 
-- [Installation Instructions] (#my-installation)
+- [Installation Instructions](#my-installation)
 
-- [Usage Information] (#my-usage)
+- [Usage Information](#my-usage)
 
-- [License] (#my-license)
+- [License](#my-license)
 
-- [Contributing Guidelines] (#my-contributors)
+- [Contributing Guidelines](#my-contributors)
 
-- [Tests] (#my-tests)
+- [Tests](#my-tests)
 
-- [Questions] (#my-questions)
+- [Questions](#my-questions)
 
 ## Description <a name="my-description"></a>
 
