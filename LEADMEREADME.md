@@ -87,10 +87,13 @@ inquirer
   ])
   .then((response) => {
     const {
-      nameInput,
-      locationInput,
-      hobbyInput,
-      foodInput,
+      descriptionInput,
+      installationInput,
+      usageInput,
+      contributionInput,
+      creditsInput,
+      licenseInput,
+      testsInput,
       githubInput,
       linkedinInput,
     } = response;
