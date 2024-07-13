@@ -111,7 +111,7 @@ ${testsInput}
 
 ## Questions <a name="my-questions"></a>
 GitHub: <a href="https://github.com/${githubInput}">${githubInput}</a> in case you want to find me on github!
-LinkedIn: <a href="${linkedinInput}">${linkedinInput}</a> in case you have any other questions or concerns.
+LinkedIn: <a href="https://www.linkedin.com/in/${linkedinInput}">${linkedinInput}</a> in case you have any other questions or concerns.
     `;
     fs.writeFile("OutputReadMe.md", mdContent, (error) => {
       if (error) {
