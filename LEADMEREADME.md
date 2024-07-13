@@ -90,3 +90,11 @@ inquirer
         </body>
       </html>
     `;
+    fs.writeFile("portfolio.html", htmlContent, (error) => {
+      if (error) {
+        console.error("Error writing file:", error);
+      } else {
+        console.log("Portfolio generated successfully!");
+      }
+    });
+  });
