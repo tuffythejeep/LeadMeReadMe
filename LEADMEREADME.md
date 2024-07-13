@@ -118,7 +118,7 @@ inquirer
         </body>
       </html>
 # Title
-
+${titleInput}
 
 ## Table of Contents
 
@@ -139,18 +139,25 @@ inquirer
 - [Questions](#my-questions)
 
 ## Description <a name="my-description"></a>
+${descriptionInput}
 
 ## Installation <a name="my-installation"></a>
+${installationInput}
 
 ## Usage <a name="my-usage"></a>
+${usageInput}
 
 ## Contributions <a name="my-contributions"></a>
+${contributionInput}}
 
 ## Credits <a name="my-credits"></a>
+${creditsInput}
 
 ## License <a name="my-license"></a>
+${licenseInput}
 
 ## Tests <a name="my-tests"></a>
+${testsInput}
 
 ## Questions <a name="my-questions"></a>
     `;
