@@ -2,18 +2,18 @@
 
 
 ## Table of Contents
-- Description
-- Installation Instructions
+- [Description] (#1) 
+- [Installation Instructions] (#2) 
 - Usage Information
 - License
 - Contributing Guidelines
 - Tests
 - Questions
 
-## Description
+## Description {#1}
 
 
-## Installation
+## Installation {#2}
 
 
 ## Usage
