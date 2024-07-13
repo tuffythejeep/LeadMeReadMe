@@ -55,7 +55,7 @@ inquirer
   ])
   .then((response) => {
     const {
-      titleInput
+      titleInput,
       descriptionInput,
       installationInput,
       usageInput,
