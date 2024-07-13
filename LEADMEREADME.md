@@ -42,6 +42,11 @@ inquirer
     {
       type: "text",
       message: "Please provide a clear and descriptive title for the project.",
+      name: "titleInput",
+    },
+    {
+      type: "text",
+      message: "Please provide A brief overview of the project, explaining its purpose, features, and any other relevant information.",
       name: "descriptionInput",
     },
     {
@@ -87,6 +92,7 @@ inquirer
   ])
   .then((response) => {
     const {
+      titleInput
       descriptionInput,
       installationInput,
       usageInput,
@@ -111,6 +117,42 @@ inquirer
           <p>LinkedIn: <a href="${linkedinInput}">${linkedinInput}</a></p>
         </body>
       </html>
+# Title
+
+
+## Table of Contents
+
+- [Description](#my-description)
+
+- [Installation Instructions](#my-installation)
+
+- [Usage Information](#my-usage)
+
+- [Contribution Guidelines](#my-contributions)
+
+- [Credits](#my-credits)
+
+- [License](#my-license)
+
+- [Tests](#my-tests)
+
+- [Questions](#my-questions)
+
+## Description <a name="my-description"></a>
+
+## Installation <a name="my-installation"></a>
+
+## Usage <a name="my-usage"></a>
+
+## Contributions <a name="my-contributions"></a>
+
+## Credits <a name="my-credits"></a>
+
+## License <a name="my-license"></a>
+
+## Tests <a name="my-tests"></a>
+
+## Questions <a name="my-questions"></a>
     `;
     fs.writeFile("portfolio.html", htmlContent, (error) => {
       if (error) {
