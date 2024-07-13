@@ -56,8 +56,23 @@ inquirer
     },
     {
       type: "text",
-      message: "What is your favorite food?",
-      name: "foodInput",
+      message: "Please provide guidelines for contributors, including information on how to submit changes or report issues.",
+      name: "contributionInput",
+    },
+     {
+      type: "text",
+      message: "Please provide acknowledgment of any individuals, libraries, or resources used in the project.",
+      name: "creditsInput",
+    },
+    {
+      type: "text",
+      message: "Please provide information about the project's license, outlining how others can use and contribute to the project.",
+      name: "licenseInput",
+    },
+    {
+      type: "text",
+      message: "Please provide Information on how to run tests and ensure the project's functionality.",
+      name: "testsInput",
     },
     {
       type: "text",
