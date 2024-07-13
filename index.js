@@ -113,11 +113,11 @@ ${testsInput}
 GitHub: <a href="https://github.com/${githubInput}">${githubInput}</a> in case you want to find me on github!
 LinkedIn: <a href="${linkedinInput}">${linkedinInput}</a> in case you have any other questions or concerns.
     `;
-    fs.writeFile("outputReadMe.md", mdContent, (error) => {
+    fs.writeFile("OutputReadMe.md", mdContent, (error) => {
       if (error) {
         console.error("Error writing file:", error);
       } else {
-        console.log("ReadMe generated successfully!");
+        console.log("OutputReadMe.md generated successfully!");
       }
     });
   });
