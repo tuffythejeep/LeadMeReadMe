@@ -11,28 +11,29 @@
 
 - [License](#my-license)
 
-- [Contributing Guidelines](#my-contributors)
+- [Contributing Guidelines](#my-contributions))
 
 - [Tests](#my-tests)
 
 - [Questions](#my-questions)
 
+
 ## Description <a name="my-description"></a>
 
 
-## Installation {#my-installation}
+## Installation <a name="my-installation"></a>
 
 
-## Usage {#my-usage}
+## Usage <a name="#my-usage"></a>
 
 
-## License {#my-license}
+## License <a name="#my-license"></a>
 
 
-## Contributions {#my-contributors}
+## Contributions <a name="my-contributions"></a>
 
 
-## Tests {#my-tests}
+## Tests <a name="my-tests"></a>
 
 
-## Questions {#my-questions}
+## Questions <a name="my-questions"></a>
