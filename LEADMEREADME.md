@@ -81,12 +81,12 @@ inquirer
     },
     {
       type: "text",
-      message: "Enter your GitHub Username:",
+      message: "Enter your GitHub Username, so others can find you there:",
       name: "gihubInput",
     },
     {
       type: "text",
-      message: "Enter your LinkedIn URL:",
+      message: "Enter your LinkedIn URL, for other questions or concers:",
       name: "linkedinInput",
     },
   ])
@@ -103,20 +103,7 @@ inquirer
       githubInput,
       linkedinInput,
     } = response;
-    const htmlContent = `
-      <html>
-        <head>
-          <title>Portfolio</title>
-        </head>
-        <body>
-          <h1>${nameInput}'s Portfolio</h1>
-          <p>Location: ${locationInput}</p>
-          <p>Hobby: ${hobbyInput}</p>
-          <p>Favorite Food: ${foodInput}</p>
-          <p>GitHub: <a href="https://github.com/${githubInput}">${githubInput}</a></p>
-          <p>LinkedIn: <a href="${linkedinInput}">${linkedinInput}</a></p>
-        </body>
-      </html>
+    const mdContent = `
 # Title
 ${titleInput}
 
@@ -136,7 +123,7 @@ ${titleInput}
 
 - [Tests](#my-tests)
 
-- [Questions](#my-questions)
+- [Questions?](#my-questions)
 
 ## Description <a name="my-description"></a>
 ${descriptionInput}
@@ -160,12 +147,14 @@ ${licenseInput}
 ${testsInput}
 
 ## Questions <a name="my-questions"></a>
+GitHub: <a href="https://github.com/${githubInput}">${githubInput}</a> in case you want to find me on github!
+LinkedIn: <a href="${linkedinInput}">${linkedinInput}</a> in case you have any other questions or concerns
     `;
-    fs.writeFile("portfolio.html", htmlContent, (error) => {
+    fs.writeFile("outputReadMe.md", mdContent, (error) => {
       if (error) {
         console.error("Error writing file:", error);
       } else {
-        console.log("Portfolio generated successfully!");
+        console.log("ReadMe generated successfully!");
       }
     });
   });
