@@ -11,7 +11,7 @@
 
 - [License](#my-license)
 
-- [Contributing Guidelines](#my-contributions))
+- [Contributing Guidelines](#my-contributions)
 
 - [Tests](#my-tests)
 
