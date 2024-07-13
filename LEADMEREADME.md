@@ -1,6 +1,5 @@
 # Title
 
-
 ## Table of Contents
 
 - [Description](#my-description)
@@ -17,23 +16,16 @@
 
 - [Questions](#my-questions)
 
-
 ## Description <a name="my-description"></a>
-
 
 ## Installation <a name="my-installation"></a>
 
-
 ## Usage <a name="#my-usage"></a>
-
 
 ## License <a name="#my-license"></a>
 
-
 ## Contributions <a name="my-contributions"></a>
 
-
 ## Tests <a name="my-tests"></a>
-
 
 ## Questions <a name="my-questions"></a>
