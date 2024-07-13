@@ -1,6 +1,6 @@
 
 # Title
-this project is just getting started
+GravyMavy Train!!!
 
 ## Table of Contents
 
@@ -21,27 +21,27 @@ this project is just getting started
 - [Questions?](#my-questions)
 
 ## Description <a name="my-description"></a>
-i hope it works because I did it all on my owm
+this project gives you the best rec ipe frecipe for gravy 
 
 ## Installation <a name="my-installation"></a>
-just clone it to your machine
+just set it up on you local by cloning my h  my repo, my dude
 
 ## Usage <a name="my-usage"></a>
 no special configurations needed
 
 ## Contributions <a name="my-contributions"></a>
-you update it, just let me know}
+if you make changes, just hit me up on github or linkedin}
 
 ## Credits <a name="my-credits"></a>
-using node.js, and inquirer, and that's all
+ used node.js, inquirer and code provide in class
 
 ## License <a name="my-license"></a>
-used MIT license for mine
+i used MIT
 
 ## Tests <a name="my-tests"></a>
-tests are on your own
+run your tests and let me know if yoiu broke it
 
 ## Questions <a name="my-questions"></a>
-GitHub: <a href="https://github.com/undefined">undefined</a> in case you want to find me on github!
-LinkedIn: <a href="alex@linkedin.com">alex@linkedin.com</a> in case you have any other questions or concerns.
+GitHub: <a href="https://github.com/tuffythejeep">tuffythejeep</a> in case you want to find me on github!
+LinkedIn: <a href="alexgarcia@linkedin.com">alexgarcia@linkedin.com</a> in case you have any other questions or concerns.
     
