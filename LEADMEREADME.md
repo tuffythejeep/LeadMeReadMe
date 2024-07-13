@@ -2,30 +2,37 @@
 
 
 ## Table of Contents
-- [Description] (#1) 
-- [Installation Instructions] (#2) 
-- Usage Information
-- License
-- Contributing Guidelines
-- Tests
-- Questions
 
-## Description {#1}
+- [Description] (#my-description)
 
+- [Installation Instructions] (#my-installation)
 
-## Installation {#2}
+- [Usage Information] (#my-usage)
 
+- [License] (#my-license)
 
-## Usage
+- [Contributing Guidelines] (#my-contributors)
 
+- [Tests] (#my-tests)
 
-## License
+- [Questions] (#my-questions)
+
+## Description {#my-description}
 
 
-## Contributions
+## Installation {#my-installation}
 
 
-## Tests
+## Usage {#my-usage}
 
 
-## Questions
+## License {#my-license}
+
+
+## Contributions {#my-contributors}
+
+
+## Tests {#my-tests}
+
+
+## Questions {#my-questions}
