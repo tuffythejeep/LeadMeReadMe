@@ -10,7 +10,7 @@
 
 - [License](#my-license)
 
-- [Contributing Guidelines](#my-contributions)
+- [Contribution Guidelines](#my-contributions)
 
 - [Tests](#my-tests)
 
