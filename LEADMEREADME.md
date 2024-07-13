@@ -20,9 +20,9 @@
 
 ## Installation <a name="my-installation"></a>
 
-## Usage <a name="#my-usage"></a>
+## Usage <a name="my-usage"></a>
 
-## License <a name="#my-license"></a>
+## License <a name="my-license"></a>
 
 ## Contributions <a name="my-contributions"></a>
 
