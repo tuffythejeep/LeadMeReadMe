@@ -8,9 +8,11 @@
 
 - [Usage Information](#my-usage)
 
-- [License](#my-license)
-
 - [Contribution Guidelines](#my-contributions)
+
+- [Credits](#my-credits)
+
+- [License](#my-license)
 
 - [Tests](#my-tests)
 
@@ -22,9 +24,11 @@
 
 ## Usage <a name="my-usage"></a>
 
-## License <a name="my-license"></a>
-
 ## Contributions <a name="my-contributions"></a>
+
+## Credits <a name="my-credits"></a>
+
+## License <a name="my-license"></a>
 
 ## Tests <a name="my-tests"></a>
 
@@ -37,18 +41,18 @@ inquirer
   .prompt([
     {
       type: "text",
-      message: "What is your name?",
-      name: "nameInput",
+      message: "Please provide a clear and descriptive title for the project.",
+      name: "descriptionInput",
     },
     {
       type: "text",
-      message: "Where are you from?",
-      name: "locationInput",
+      message: "Please provide instructions on how to install and set up the project locally.",
+      name: "installationInput",
     },
     {
       type: "text",
-      message: "What is your favorite hobby?",
-      name: "hobbyInput",
+      message: "Pleasen list guidelines on how to use the project, including any commands or configurations.",
+      name: "usageInput",
     },
     {
       type: "text",
