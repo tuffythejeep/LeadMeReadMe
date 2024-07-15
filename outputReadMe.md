@@ -1,7 +1,7 @@
 
-![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-# ljheljhe
+# l;jk;hwfdeqljkhfljhf
 
 ## Table of Contents
 
@@ -22,27 +22,27 @@
 - [Questions?](#my-questions)
 
 ## Description <a name="my-description"></a>
-kjekjekje
+l;kfe;kejh;lkef
 
 ## Installation <a name="my-installation"></a>
-kjekjekje
+ljhfel;l;kerwq
 
 ## Usage <a name="my-usage"></a>
-khjekjekje
+wdqwerd;khjredfw;hj
 
 ## Contributions <a name="my-contributions"></a>
-kjekjekje
+;kewrdl;kwerq
 
 ## Credits <a name="my-credits"></a>
-khjekej
+;khjweqdr;kjew
 
 ## License <a name="my-license"></a>
-This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Tests <a name="my-tests"></a>
-.;lkjekjekje
+ljkhdewqrljkhewqdr	ljkhewdr
 
 ## Questions <a name="my-questions"></a>
-GitHub: <a href="https://github.com/lkjelkejkle">lkjelkejkle</a> in case you want to find me on GitHub!
-LinkedIn: <a href="https://www.linkedin.com/in/lkjelkje">lkjelkje</a> in case you have any other questions or concerns.
+GitHub: <a href="https://github.com/tuffythejeep">tuffythejeep</a> in case you want to find me on GitHub!
+LinkedIn: <a href="https://www.linkedin.com/in/alexgarcialinked">alexgarcialinked</a> in case you have any other questions or concerns.
     
