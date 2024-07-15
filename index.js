@@ -162,11 +162,11 @@ LinkedIn: <a href="https://www.linkedin.com/in/${linkedinInput}">${linkedinInput
 Email: <a href="mailto:${emailInput}">${emailInput}</a> if you have additional questions.
     `;
 
-    fs.writeFile("OutputReadMe.md", mdContent, (error) => {
+    fs.writeFile("OUTPUTREADME.md", mdContent, (error) => {
       if (error) {
         console.error("Error writing file:", error);
       } else {
-        console.log("OutputReadMe.md generated successfully!");
+        console.log("OUTPUTREADME.md generated successfully!");
       }
     });
   });
