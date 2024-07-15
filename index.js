@@ -84,8 +84,14 @@ inquirer
     },
     {
       type: "text",
-      message: "Enter your LinkedIn URL for any other questions or concerns:",
+      message:
+        "Enter your LinkedIn URL, so others can connect with you professionally:",
       name: "linkedinInput",
+    },
+    {
+      type: "text",
+      message: "Enter your email address for additional questions:",
+      name: "emailInput",
     },
   ])
   .then((response) => {
@@ -100,6 +106,7 @@ inquirer
       testsInput,
       githubInput,
       linkedinInput,
+      emailInput,
     } = response;
 
     const licenseBadge = licenses[licenseChoice].badge;
@@ -151,7 +158,8 @@ ${testsInput}
 
 ## Questions <a name="my-questions"></a>
 GitHub: <a href="https://github.com/${githubInput}">${githubInput}</a> in case you want to find me on GitHub!
-LinkedIn: <a href="https://www.linkedin.com/in/${linkedinInput}">${linkedinInput}</a> in case you have any other questions or concerns.
+LinkedIn: <a href="https://www.linkedin.com/in/${linkedinInput}">${linkedinInput}</a> if you want to communicate with me professionally.
+Email: <a href="mailto:${emailInput}">${emailInput}</a> if you have additional questions.
     `;
 
     fs.writeFile("OutputReadMe.md", mdContent, (error) => {
