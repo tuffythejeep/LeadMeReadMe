@@ -159,7 +159,7 @@ ${testsInput}
 ## Questions <a name="my-questions"></a>
 GitHub: <a href="https://github.com/${githubInput}">${githubInput}</a> in case you want to find me on GitHub! \\
 LinkedIn: <a href="https://www.linkedin.com/in/${linkedinInput}">${linkedinInput}</a> if you want to communicate with me professionally. \\
-Email: <a href="mailto:${emailInput}">${emailInput}</a> if you have additional questions. \\
+Email: <a href="mailto:${emailInput}">${emailInput}</a> if you have additional questions.
     `;
 
     fs.writeFile("OUTPUTREADME.md", mdContent, (error) => {
