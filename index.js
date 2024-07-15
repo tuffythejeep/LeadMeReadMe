@@ -1,5 +1,33 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
+
+const licenses = {
+  "MIT License": {
+    badge:
+      "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+    notice:
+      "This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.",
+  },
+  "GNU GPLv3": {
+    badge:
+      "![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)",
+    notice:
+      "This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.",
+  },
+  "Apache License 2.0": {
+    badge:
+      "![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)",
+    notice:
+      "This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.",
+  },
+  "Mozilla Public License 2.0": {
+    badge:
+      "![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)",
+    notice:
+      "This project is licensed under the Mozilla Public License 2.0 - see the [LICENSE](LICENSE) file for details.",
+  },
+};
+
 inquirer
   .prompt([
     {
@@ -9,37 +37,44 @@ inquirer
     },
     {
       type: "text",
-      message: "Provide an overview of your project, explaining its purpose, features, and other relevant info:",
+      message:
+        "Provide an overview of your project, explaining its purpose, features, and other relevant info:",
       name: "descriptionInput",
     },
     {
       type: "text",
-      message: "Provide instructions on how to install and set up the project locally:",
+      message:
+        "Provide instructions on how to install and set up the project locally:",
       name: "installationInput",
     },
     {
       type: "text",
-      message: "List guidelines on how to use the project, including commands or special configurations:",
+      message:
+        "List guidelines on how to use the project, including commands or special configurations:",
       name: "usageInput",
     },
     {
       type: "text",
-      message: "Provide guidelines for contributors, including info on how to submit changes or report issues:",
+      message:
+        "Provide guidelines for contributors, including info on how to submit changes or report issues:",
       name: "contributionInput",
     },
-     {
+    {
       type: "text",
-      message: "Please list any individuals, libraries, or resources used in your project:",
+      message:
+        "Please list any individuals, libraries, or resources used in your project:",
       name: "creditsInput",
     },
     {
-      type: "text",
-      message: "Please provide info about the project's license, outlining how others can contribute to your project:",
-      name: "licenseInput",
+      type: "list",
+      message: "Please choose a license for your project:",
+      name: "licenseChoice",
+      choices: Object.keys(licenses),
     },
     {
       type: "text",
-      message: "Provide info on how to run tests and ensure the project's functionality:",
+      message:
+        "Provide info on how to run tests and ensure the project's functionality:",
       name: "testsInput",
     },
     {
@@ -61,14 +96,19 @@ inquirer
       usageInput,
       contributionInput,
       creditsInput,
-      licenseInput,
+      licenseChoice,
       testsInput,
       githubInput,
       linkedinInput,
     } = response;
+
+    const licenseBadge = licenses[licenseChoice].badge;
+    const licenseNotice = licenses[licenseChoice].notice;
+
     const mdContent = `
-# Title
-${titleInput}
+${licenseBadge}
+
+# ${titleInput}
 
 ## Table of Contents
 
@@ -98,21 +138,22 @@ ${installationInput}
 ${usageInput}
 
 ## Contributions <a name="my-contributions"></a>
-${contributionInput}}
+${contributionInput}
 
 ## Credits <a name="my-credits"></a>
 ${creditsInput}
 
 ## License <a name="my-license"></a>
-${licenseInput}
+${licenseNotice}
 
 ## Tests <a name="my-tests"></a>
 ${testsInput}
 
 ## Questions <a name="my-questions"></a>
-GitHub: <a href="https://github.com/${githubInput}">${githubInput}</a> in case you want to find me on github!
+GitHub: <a href="https://github.com/${githubInput}">${githubInput}</a> in case you want to find me on GitHub!
 LinkedIn: <a href="https://www.linkedin.com/in/${linkedinInput}">${linkedinInput}</a> in case you have any other questions or concerns.
     `;
+
     fs.writeFile("OutputReadMe.md", mdContent, (error) => {
       if (error) {
         console.error("Error writing file:", error);
