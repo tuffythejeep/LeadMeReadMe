@@ -1,7 +1,7 @@
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-# this project is about HAM
+# Project Turkey!!!
 
 ## Table of Contents
 
@@ -22,25 +22,25 @@
 - [Questions?](#my-questions)
 
 ## Description <a name="my-description"></a>
-Ham is savory and sweet, and delicious to eat! This project is dedicated to ham!
+This Project is about the wonderful bird and mean, Turkey!
 
 ## Installation <a name="my-installation"></a>
-just clone to you local, my dude
+git clone my repo down to your remote!!
 
 ## Usage <a name="my-usage"></a>
-no special configs neeeded
+no Special configurations needed
 
 ## Contributions <a name="my-contributions"></a>
-you see a problem, lemme know
+if you want to contribute or do contribuite, please lemme know!
 
 ## Credits <a name="my-credits"></a>
-I used Inquirer and the material/source code provided by the UT Course 
+I used Node.js, the Inquirer package, and that's all
 
 ## License <a name="my-license"></a>
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Tests <a name="my-tests"></a>
-test  it and break it, lemme know what you find
+Run tests freely, if you encounter a problem, lemme know
 
 ## Questions <a name="my-questions"></a>
 GitHub: <a href="https://github.com/tuffythejeep">tuffythejeep</a> in case you want to find me on GitHub!
