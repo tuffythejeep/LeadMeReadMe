@@ -1,38 +1,41 @@
 # LeadMeReadMe
 
-# the-task-board-to-end-all-task-boards
-
-This-is-the-task-board-to-end-all-task-boards
+A README.md generator using Node.js.
 
 ## Description
 
-This repository contains my solution for the Module 5 Challenge - "This-is-the-task-board-to-end-all-task-boards"
+This repository contains my solution for the Module 9 Challenge - \
+"09 Node.js Challenge: Professional README Generator"
 
-In order for my work to show what I can do, I used HTML and JavaScript to:
+In order for my work to show what I can do, I used Node.js and the Inquirer package to complete the following User Story and A/C:
 
-- Added a function which lists project tasks, displayed in columns representing the task progress state (Not Yet Started, In Progress, Completed)
+User Story: \
+AS A developer
+I WANT a README generator
+SO THAT I can quickly create a professional README for a new project
 
--- Each task is color coded to indicate whether it is nearing the deadline (yellow) or is overdue (red)
+Acceptance Criteria: \
+GIVEN a command-line application that accepts user input
+WHEN I am prompted for information about my application repository
+THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+WHEN I enter my project title
+THEN this is displayed as the title of the README
+WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
+THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
+WHEN I choose a license for my application from a list of options
+THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
+WHEN I enter my GitHub username
+THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
+WHEN I enter my email address
+THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
+WHEN I click on the links in the Table of Contents
+THEN I am taken to the corresponding section of the README
 
--- When I click on the button to define a new task, I can enter the title, description and deadline date for the new task into a modal dialog.
+There is no deployed page, however, you can find my repository page here:
 
--- When I click the save button for that task, the properties for that task are saved in localStorage.
+- <https://github.com/tuffythejeep/LeadMeReadMe>
 
--- When I drag a task to a different progress column, then the task's progress state is updated accordingly and will stay in the new column after refreshing.
-
--- When I click the delete button for a task, the task is removed from the task board and will not be added back after refreshing.
-
--- When I refresh the page, the saved tasks persist.
-
-You can find my deployed page here :
-
-- <https://tuffythejeep.github.io/the-task-board-to-end-all-task-boards/>
-
-and my repository page here:
-
-- <https://github.com/tuffythejeep/the-task-board-to-end-all-task-boards>
-
-Here is a picture of my deployed page:
+Here is a picture of my generated OUTPUTREADME.md:
 ![image](https://github.com/tuffythejeep/the-task-board-to-end-all-task-boards/assets/167649421/2bc48e57-b18b-4efc-850c-7357eb4c1795)
 
 
@@ -42,16 +45,11 @@ N/A
 
 ## Usage
 
-My final version of the webpage mirrors the UT Challenge source file, acceptance criteria, rubric, and Sample gif when rendered on a browser.
-
-I used Chrome's console (inspect) to ensure my edits, adjustments, changes, and tweaks rendered correctly.
+My final version of the work mirrors the UT Challenge source file/code, acceptance criteria, rubric, and video submission.
 
 ## Credits
 
-Credit to Jasper Garcia, my son, who helps me troubleshoot when I am stuck - however, I wrote all my own JavaScript and HTML updates. 
-I was able to ask him questions to clarify, and he prompted and challenged me to take breaks and allow my mind to process the solutions which were brewing.
-
-When stuck (and I was stuck a lot), I referenced the following sites:
+I usually credit Jasper Garcia, my son, who helps me troubleshoot when I am stuck - however, I wrote all my own code without any impediments, on this one. So I did not need his help whatsoever.
 
 - <https://developer.mozilla.org/en-US/>
 
@@ -63,11 +61,11 @@ When stuck (and I was stuck a lot), I referenced the following sites:
 
 - <https://bing.com/>
 
-I referenced code (HTML and CSS) from the UT provided lessons, however, I wrote all my own changes, edits, tweaks, and versions of my webpage, html, and styles.
+I referenced code from the UT provided lessons, however, I wrote all my own changes, edits, tweaks, and versions of my node.js application.
 
 I commented and committed to my repo heavily.
 
-I was able to deploy without issue, once I copied all HTML and css files properly.
+I was able to deploy without issue and my code generated the necessary OUTPUTREADME.md.
 
 ## License
 
