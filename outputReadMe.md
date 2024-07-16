@@ -1,7 +1,7 @@
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
-# Project Turkey!!!
+# Potato
 
 ## Table of Contents
 
@@ -22,28 +22,28 @@
 - [Questions?](#my-questions)
 
 ## Description <a name="my-description"></a>
-This Project is about the wonderful bird and mean, Turkey!
+ljkhfwelhew
 
 ## Installation <a name="my-installation"></a>
-git clone my repo down to your remote!!
+lklhfewkhf
 
 ## Usage <a name="my-usage"></a>
-no Special configurations needed
+ljkhfewlkjhf
 
 ## Contributions <a name="my-contributions"></a>
-if you want to contribute or do contribuite, please lemme know!
+lkjjhfewkhf
 
 ## Credits <a name="my-credits"></a>
-I used Node.js, the Inquirer package, and that's all
+lk;hfewkhjf
 
 ## License <a name="my-license"></a>
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
 ## Tests <a name="my-tests"></a>
-Run tests freely, if you encounter a problem, lemme know
+;lkjfe;kjfe
 
 ## Questions <a name="my-questions"></a>
-GitHub: <a href="https://github.com/tuffythejeep">tuffythejeep</a> in case you want to find me on GitHub!
-LinkedIn: <a href="https://www.linkedin.com/in/alexgarcialinked">alexgarcialinked</a> if you want to communicate with me professionally.
+GitHub: <a href="https://github.com/tuffythejeep">tuffythejeep</a> in case you want to find me on GitHub! \
+LinkedIn: <a href="https://www.linkedin.com/in/alexgarcialinked">alexgarcialinked</a> if you want to communicate with me professionally. \
 Email: <a href="mailto:tuffythejeep@yahoo.com">tuffythejeep@yahoo.com</a> if you have additional questions.
     
